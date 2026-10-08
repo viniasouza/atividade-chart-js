@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar{
+    width: 20vh; 
+    background-color: rgb(3, 52, 52); 
+    height: 100vh;
+}
+.navbar span{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 100px;
+}
+.navbar span:hover{
+    color: blue;
+}
+
+#ativo  {
+    color: blue;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}

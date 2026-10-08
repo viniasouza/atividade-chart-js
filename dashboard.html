@@ -6,19 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard - Chart JS</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="display: flex">
+<body>
+    <div class="container">
+        <div class="navbar">
+            <span id="ativo">Dashboard</span>
+            <br>
+            <span>Histórico</span>
+            <br>
+            <span>Sensores</span>
+            <br>
+            <span>Configurações</span>
+        </div>
+        
+        <div class="main">
 
+            <div style="position: relative; height:40vh; width:50vw">
+                <canvas id="graficoLinhas"></canvas>
+            </div>
+            
+            <div style="position: relative; height:40vh; width:40vw">
+                <canvas id="graficoBarras"></canvas>
+            </div>
+            
+        </div>
 
-    <div style="position: relative; height:40vh; width:60vw">
-        <canvas id="graficoLinhas"></canvas>
     </div>
-
-    <div style="position: relative; height:40vh; width:60vw">
-        <canvas id="graficoBarras"></canvas>
-    </div>
-
 </body>
 
 </html>
